@@ -35,6 +35,22 @@ var config={
 		'task-file-name': 'description.txt',
 		'index-file':'question.html'
 	},
+	'add-class': {
+		title:'Функция addClass(node, classToAdd)',
+		'task-file-name': 'task.txt'
+	},
+	'has-class': {
+		title:'Функция hasClass(node, classToCheck)',
+		'task-file-name': 'task.txt'
+	},
+	'next': {
+		title:'Функция next(node)',
+		'task-file-name': 'task.txt'
+	},
+	'remove-class': {
+		title:'Функция removeClass(node, classToRemove)',
+		'task-file-name': 'task.txt'
+	},
 	'ugadajka': {
 		title:'Угадать число',
 		'task-file-name': 'task.txt'
@@ -76,7 +92,35 @@ var config={
 		'task-file-name': 'description.txt',
 	},
 	'summator': {
-		title:'Функция parse(string)',
+		title:'Функция summ',
+		'task-file-name': 'description.txt',
+	},
+	'armiya-funkcij': {
+		title:'Армия функций',
+		'task-file-name': 'description.txt',
+	},
+	'create-caching-function': {
+		title:'Функция createCachable(func)',
+		'task-file-name': 'description.txt',
+	},
+	'incapsulated-counter': {
+		title:'Функция createSummator(initialValue)',
+		'task-file-name': 'description.txt',
+	},
+	'keeper': {
+		title:'Функция createKeeper()',
+		'task-file-name': 'description.txt',
+	},
+	'unique': {
+		title:'Функция getUnique(arr)',
+		'task-file-name': 'description.txt',
+	},
+	'counter': {
+		title:'Счетчик',
+		'task-file-name': 'description.txt',
+	},
+	'makeIterable': {
+		title:'Функция makeIterable',
 		'task-file-name': 'description.txt',
 	},
 };

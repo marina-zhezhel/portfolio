@@ -1,0 +1,1 @@
+Реализовать функцию hasClass(node, classToCheck), которая вернет true, если у node есть класс classToCheck

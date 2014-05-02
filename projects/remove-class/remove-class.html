@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>remove</title>
+</head>   
+<body>
+<script type="text/javascript">
+function removeClass(node, classToRemove) {
+	var massPartClass = node.className.split(" ");
+	var massRemoveClass=[];
+	var strRemoveClass="";
+	for ( var i = 0; i < massPartClass.length; i++) {
+		if (massPartClass[i] !== classToRemove) {
+			massRemoveClass.push(massPartClass[i]);
+		}
+	}
+	for ( var i = 0; i < massRemoveClass.length; i++) {
+		strRemoveClass+=massRemoveClass[i]+" ";
+	}
+	strRemoveClass = strRemoveClass.substring(0, strRemoveClass.length - 1);
+	if (strRemoveClass!=="") {
+		node.setAttribute("class", strRemoveClass);
+	}
+	else {
+		node.removeAttribute("class");
+	}
+	return node;
+}
+</script>
+<div class="main-column">
+</div>
+</body>
+</html>
+
+
+<!-- 
+ * <div class="main main main-column"></div>
+ * 
+ * removeClass(document.querySelector('.main-column'), 'main');
+ * 
+ * <div class="main-column"></div>
+ * 
+ * removeClass(document.querySelector('.main-column'), 'main-column');
+ * 
+ * <div></div>
+ */ -->

@@ -1,0 +1,11 @@
+Реализовать функцию addClass(node, classToAdd). Класс не должен добавляться, если такой уже есть у элемента. Например, разметка
+
+<div class='main-column'></div>
+
+после вызова кода
+
+addClass(document.querySelector('.main-column'), 'main');
+
+должна измениться так:
+
+<div class='main-column main'>

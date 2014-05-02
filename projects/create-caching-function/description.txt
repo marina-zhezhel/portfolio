@@ -1,0 +1,11 @@
+Написать функцию createCachable(func), принимающую аргументом функцию. createCachable(func) возвращает новую функцию, которая возвращает результат вызова func и запоминает его, или возвращает уже запомненный результат для текущего аргумента. Функция func может иметь только один аргумент. createCachable(func) может создавать какое угодно количество кешированных версий функций.
+// функция возвращает квадрат аргумента,
+// но выполняется секунду
+function longTimeMultiplier(num) {
+  var now = new Date().getTime();
+  while (new Date().getTime() < now + 1000);
+  return num * num;
+}
+var cachableMultiplier = createCachable(longTimeMultiplier);
+// Первый вызов выполняется так же долго, как и оригинальная функция var mul10 = cachableMultiplier(10);
+// Последующие вызовы с тем-же аргументом моментальны var mul10_1 = cachableMultiplier(10); var mul10_2 = cachableMultiplier(10); var mul10_3 = cachableMultiplier(10);
