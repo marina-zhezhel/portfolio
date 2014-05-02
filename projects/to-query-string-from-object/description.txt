@@ -1,0 +1,5 @@
+Написать функцию toQueryString(obj), которая принимает аргументом объект и возвращает строку. Например
+
+toQueryString({}); // -> ''
+toQueryString({test: true}); // -> 'test=true'
+toQueryString({test: true, foo: 'bar'}); // -> 'test=true&foo=bar'
