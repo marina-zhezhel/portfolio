@@ -7,7 +7,7 @@ $(document).ready(function() {
 	$( '.name-task' ).on( "click", ".menu-item", function() {
 		var taskId=$(this).attr('data-task-id');
 		$('.name-task-title').text(config[taskId].title);
-		$.get( './projects/'+taskId+'/description.txt', function( data ) {
+		$.get( './projects/'+taskId+'/'+config[taskId]['task-file-name'], function( data ) {
 			
 			$( ".description" ).text( data );
 		});
