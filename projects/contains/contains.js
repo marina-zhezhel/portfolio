@@ -14,4 +14,3 @@ function contains(where, what) {
 	return true;
 }
 
-//contains([1, 2, 3], [2, 3, 1]); --- true

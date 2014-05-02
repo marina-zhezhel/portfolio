@@ -9,11 +9,4 @@ function getUnique(arr) {
     return massRez;
 }
 
-//var a = {};
-//var b = {};
- 
-//var u = getUnique([a,b,b,a]);
-//console.log(u[0] === a); // true
-//console.log(u[1] === b); // true
-//console.log(u.length === 2); // true
 

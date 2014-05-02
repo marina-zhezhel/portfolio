@@ -9,4 +9,4 @@ function isInArray() {
 	return true;
 }
 
-// isInArray(1, 2, 10, [1, 2, 5, 10]);
+

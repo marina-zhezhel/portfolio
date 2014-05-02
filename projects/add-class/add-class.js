@@ -16,16 +16,4 @@ function addClass(node, classToAdd) {
 	}
 }
 
-/*
- * Пример применения для разметки
- * 
- * <div class='main-column'></div>
- * 
- * После вызова
- * 
- * addClass(document.querySelector('.main-column'), 'main');
- * 
- * HTML станет таким:
- * 
- * <div class='main-column main'></div>
- */
+

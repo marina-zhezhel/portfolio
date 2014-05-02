@@ -37,19 +37,19 @@ var config={
 	},
 	'add-class': {
 		title:'Функция addClass(node, classToAdd)',
-		'task-file-name': 'task.txt'
+		'task-file-name': 'description.txt'
 	},
 	'has-class': {
 		title:'Функция hasClass(node, classToCheck)',
-		'task-file-name': 'task.txt'
+		'task-file-name': 'description.txt'
 	},
 	'next': {
 		title:'Функция next(node)',
-		'task-file-name': 'task.txt'
+		'task-file-name': 'description.txt'
 	},
 	'remove-class': {
 		title:'Функция removeClass(node, classToRemove)',
-		'task-file-name': 'task.txt'
+		'task-file-name': 'description.txt'
 	},
 	'ugadajka': {
 		title:'Угадать число',
@@ -87,7 +87,7 @@ var config={
 		title:'Функция isInArray()',
 		'task-file-name': 'description.txt',
 	},
-	'to-query-string-from-object': {
+	'query-string-to-object': {
 		title:'Функция parse(string)',
 		'task-file-name': 'description.txt',
 	},

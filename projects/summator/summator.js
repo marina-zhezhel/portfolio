@@ -7,4 +7,3 @@ function summ() {
     return sum;
     
 }
-//summ(1,"2",3);

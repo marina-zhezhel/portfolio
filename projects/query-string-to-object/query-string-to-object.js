@@ -23,4 +23,3 @@ function parse(queryString) {
 	}
 	return obj;
 }
-parse('test=10&foo=bar');

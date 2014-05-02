@@ -9,4 +9,4 @@ function every(arr, func) {
 	}
 	return true;
 }
-// every([1,2,3], function (el, i) {return el < i});
+

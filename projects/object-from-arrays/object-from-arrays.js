@@ -7,4 +7,3 @@ function createObject(keys, values) {
 	return rez;
 }
 
-// createObject([ 'name', 'age' ], [ 'Vasiliy', 45 ]);

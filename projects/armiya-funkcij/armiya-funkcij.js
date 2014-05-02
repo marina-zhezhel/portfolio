@@ -12,7 +12,4 @@ function makeArmy() {
 	return shooters;
 }
 
-//var army = makeArmy();
 
-//army[0](); // 0
-//army[1](); // 1

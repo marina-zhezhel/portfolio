@@ -1,25 +1,25 @@
 var numberImode = 7;
-var userInput = prompt("Введите число до 10, и я скажу, угадали ли Вы его");
+var userInput = prompt("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РґРѕ 10, Рё СЏ СЃРєР°Р¶Сѓ, СѓРіР°РґР°Р»Рё Р»Рё Р’С‹ РµРіРѕ");
 var userGuess = parseInt(userInput,10);
 
 if (userInput!==null) {
 	if (!isNaN(userGuess)){
 		if (userInput<0 || userInput>10) {
-			console.log ("Введенное число не соответствует указанному диапозону");
+			console.log ("Р’РІРµРґРµРЅРЅРѕРµ С‡РёСЃР»Рѕ РЅРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓРµС‚ СѓРєР°Р·Р°РЅРЅРѕРјСѓ РґРёР°РїРѕР·РѕРЅСѓ");
 		}
 		else {
 			if (userGuess===numberImode) {
-				console.log ("Число угадано");
+				console.log ("Р§РёСЃР»Рѕ СѓРіР°РґР°РЅРѕ");
 			}
 			else {
-				console.log ("Число не угадано");
+				console.log ("Р§РёСЃР»Рѕ РЅРµ СѓРіР°РґР°РЅРѕ");
 			}
 		}
 	}
 	else { 
-		console.log ("Введено не число");
+		console.log ("Р’РІРµРґРµРЅРѕ РЅРµ С‡РёСЃР»Рѕ");
 	}
 }
 else {
-	console.log ("Вы ничего не ввели");
+	console.log ("Р’С‹ РЅРёС‡РµРіРѕ РЅРµ РІРІРµР»Рё");
 }

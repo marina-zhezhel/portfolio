@@ -1,10 +1,4 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>remove</title>
-</head>   
-<body>
-<script type="text/javascript">
+'use strict';
 function removeClass(node, classToRemove) {
 	var massPartClass = node.className.split(" ");
 	var massRemoveClass=[];
@@ -26,21 +20,6 @@ function removeClass(node, classToRemove) {
 	}
 	return node;
 }
-</script>
-<div class="main-column">
-</div>
-</body>
-</html>
 
 
-<!-- 
- * <div class="main main main-column"></div>
- * 
- * removeClass(document.querySelector('.main-column'), 'main');
- * 
- * <div class="main-column"></div>
- * 
- * removeClass(document.querySelector('.main-column'), 'main-column');
- * 
- * <div></div>
- */ -->
+

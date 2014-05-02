@@ -9,4 +9,3 @@ function extend() {
 	return obj;
 }
 
-// extend({foo: true}, {bar: false});

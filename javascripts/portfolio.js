@@ -1,13 +1,13 @@
 $(document).ready(function() {
 	$.each(config, function(key, value) {
-		var a =  $('<a>',{href:'#','class':'menu-item','data-task-id':key}).text(value.title);
+		var a =  $('<a>',{href:'#','class':'menu-item','data-task-id':key,'title':config[key].title}).text(value.title);
 		a.appendTo('.name-task');
 		a.wrap( '<li></li>' );
 	});
 	$( '.name-task' ).on( "click", ".menu-item", function() {
 		var taskId=$(this).attr('data-task-id');
 		$('.name-task-title').text(config[taskId].title);
-		$.get( './projects/'+taskId+'/'+config[taskId]['task-file-name'], function( data ) {
+		$.get( './projects/'+taskId+'/'+config[taskId]['task-file-name'] + '?' + Math.random(), function( data ) {
 			
 			$( ".description" ).text( data );
 		});
@@ -22,6 +22,4 @@ $(document).ready(function() {
 		$('section').show();
 		return false;
 	});
-
-	
 });

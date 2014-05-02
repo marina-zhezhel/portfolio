@@ -8,4 +8,4 @@ function toQueryString(obj) {
 	}
 	return str1;
 }
-// toQueryString({test: true, bar:"foo"});
+

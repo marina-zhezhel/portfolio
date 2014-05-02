@@ -8,14 +8,11 @@ function makeIterable(trim) {
 		return res;
 	};
 }
-// Óáèðàåò ïðîáåëüíûå ñèìâîëû ñ îáîèõ êîíöîâ ñòðîê
+// Ð£Ð±Ð¸Ñ€Ð°ÐµÑ‚ Ð¿Ñ€Ð¾Ð±ÐµÐ»ÑŒÐ½Ñ‹Ðµ ÑÐ¸Ð¼Ð²Ð¾Ð»Ñ‹ Ñ Ð¾Ð±Ð¾Ð¸Ñ… ÐºÐ¾Ð½Ñ†Ð¾Ð² ÑÑ‚Ñ€Ð¾Ðº
 function trim(str) {
 	var p = new RegExp(/\s/g);
 	str = str.replace(p, "");
 	return str;
 }
 
-/*trim('    Hello \r\n'); // -> 'hello'
 
-var iTrim = makeIterable(trim)
-iTrim([ '   Hello', ' how   ', ' are', 'you' ]); // -> ['Hello', 'how','are', 'you']*/
