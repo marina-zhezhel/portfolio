@@ -12,7 +12,13 @@ $(document).ready(function() {
 			$( ".description" ).text( data );
 		});
 		$('.source-cod').attr('href','https://github.com/marina-zhezhel/portfolio/tree/gh-pages/projects/'+taskId);
-		$('.result').attr('href','./projects/'+taskId+'/'+config[taskId]['index-file']);
+		
+		if (!config[taskId]['index-file']) {
+			$('.result').hide();
+		}
+		else {
+			$('.result').attr('href','./projects/'+taskId+'/'+config[taskId]['index-file']).show();
+		}
 		$('section').show();
 		return false;
 	});
