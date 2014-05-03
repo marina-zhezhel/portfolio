@@ -15,6 +15,11 @@ var config={
 		'task-file-name': 'description.txt',
 		'index-file':'index.html'
 	},
+	'board-wishes': {
+		title:'Доска пожеланий',
+		'task-file-name': 'description.txt',
+		'index-file':'index.html'
+	},
 	'delegate': {
 		title:'Функция для делегирования',
 		'task-file-name': 'description.txt',
