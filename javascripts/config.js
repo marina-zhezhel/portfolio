@@ -20,6 +20,11 @@ var config={
 		'task-file-name': 'description.txt',
 		'index-file':'index.html'
 	},
+	'tag-list': {
+		title:'Тег лист',
+		'task-file-name': 'description.txt',
+		'index-file':'tag-list.html'
+	},
 	'delegate': {
 		title:'Функция для делегирования',
 		'task-file-name': 'description.txt',

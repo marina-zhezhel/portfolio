@@ -1,0 +1,44 @@
+body {
+	margin-left:300px;
+	font-size:20px;
+	padding:0;
+}
+input {
+	width:300px;
+}
+.finish-editing, form {
+	display:none;
+}
+.edit-tags, .finish-editing {
+	color:#297373;
+	border-bottom: 2px dashed #297373;
+	cursor:pointer;
+}
+.edit {
+	margin:0px 0px 20px 0px;
+}
+.edit-tags {
+	display:inline;
+}
+.tag {
+	margin:0px 5px 10px 0px;
+	display:inline-block;
+	text-align: center;
+}
+.close, .text {
+	padding: 2px;
+	background-color: silver;
+	color:white;
+}
+.text{
+	border: black thin solid;
+}
+.close {
+	border-right: black thin solid;
+	border-top: black thin solid;
+	border-bottom: black thin solid;
+	cursor:pointer;
+}
+
+
+
